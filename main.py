@@ -1,6 +1,12 @@
-import pygame
-import sys
+import pygame, sys
 import controls
+import turn
+# appending instances to list
+# list.append( geeks('Akash', 2) )
+# list.append( geeks('Deependra', 40) )
+# list.append( geeks('Reaper', 44) )
+
+list_of_turns = []
 
 def run():
 
